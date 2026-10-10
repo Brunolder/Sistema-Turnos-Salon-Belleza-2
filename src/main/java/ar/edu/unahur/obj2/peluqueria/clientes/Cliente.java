@@ -14,7 +14,7 @@ public class Cliente {
 
     public Cliente(String nombre, ICategoria categoria, List<Turnos> historial) {
         this.nombre = nombre;
-        this.categoria = categoria;
+        this.categoria = new Frecuente();
         this.historial = new ArrayList<>(historial);
     }
 
